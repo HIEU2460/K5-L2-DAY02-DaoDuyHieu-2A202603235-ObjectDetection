@@ -17,11 +17,31 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
-- Kết quả checker và lỗi đã xử lý:
-- Danh sách ít nhất 10 ảnh đã rà bằng mắt:
+- Số file nhãn train: 50 file .txt tương ứng với 50 ảnh train (drive_001.jpg đến drive_050.jpg).
+
+- Kết quả checker và lỗi đã xử lý: 
+    + Chạy lệnh python tools/check_yolo_labels.py.
+    + Kết quả: ĐẠT cấu trúc: 50/50 file nhãn hợp lệ. Chờ ground truth để chấm chất lượng.
+    + Đã thực hiện Self-QC và chỉnh sửa các lỗi gán nhãn phát hiện tại ảnh drive_005.jpg, drive_035.jpg và drive_050.jpg.
+
+- Danh sách ít nhất 10 ảnh đã rà bằng mắt: 
+    drive_001.jpg
+    drive_005.jpg
+    drive_010.jpg
+    drive_015.jpg
+    drive_020.jpg
+    drive_025.jpg
+    drive_030.jpg
+    drive_035.jpg
+    drive_040.jpg
+    drive_050.jpg
+Tổng kết: Bổ sung 3 bounding box bị bỏ sót và sửa class cho 2 đối tượng.
+
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
-- Commit khóa nhãn ban đầu:
+    + drive_005.jpg: Phát hiện 1 đối tượng gán nhầm class bus → đã sửa thành van. Đồng thời phát hiện bỏ sót 2 xe van → đã bổ sung 2 bounding box.
+    + drive_035.jpg: Phát hiện bỏ sót 1 xe car (ID 930) → đã bổ sung bounding box cho xe này.
+    + drive_050.jpg: Phát hiện đối tượng ID 162 gán nhầm class car → đã sửa thành van.
+- Commit khóa nhãn ban đầu: 6e6ed4d (add ảnh đã labeling).
 
 ## 4. Gold QC và rework
 
