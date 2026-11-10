@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` |Xe con bị che một phần bởi xe khác. |Gán car, box quanh phần nhìn thấy. |Schema cho phép gán xe bị che nếu vẫn nhận diện được lớp. |
-| `drive_...` |	Xe nằm sát mép ảnh, một phần thân xe nằm ngoài khung.|Gán lớp phù hợp, box dừng tại rìa ảnh|Không dự đoán phần nằm ngoài ảnh.|
-| `drive_...` |Xe nhỏ ở xa, khó phân biệt bus với van.|Chưa tự quyết định lớp; ghi lại để hỏi giảng viên.|Không đủ thông tin nhận dạng chắc chắn.|
+| `drive_003.jpg` |Xe con bị che một phần bởi xe khác. |Gán car, box quanh phần nhìn thấy. |Schema cho phép gán xe bị che nếu vẫn nhận diện được lớp. |
+| `drive_005.jpg` |	Xe nằm sát mép ảnh, một phần thân xe nằm ngoài khung.|Gán lớp phù hợp, box dừng tại rìa ảnh|Không dự đoán phần nằm ngoài ảnh.|
+| `drive_007.jpg` |Xe nhỏ ở xa, khó phân biệt bus với van.|Chưa tự quyết định lớp; ghi lại để hỏi giảng viên.|Không đủ thông tin nhận dạng chắc chắn.|
