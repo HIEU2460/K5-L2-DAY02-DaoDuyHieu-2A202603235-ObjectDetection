@@ -1,13 +1,11 @@
 # Báo cáo cá nhân — Ngày 2 Object Detection
 
-Đổi tên file theo `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`. Điền kết quả thật, xóa dòng hướng dẫn khi nộp. Xem [quy định nộp](../../SUBMISSION.md).
-
 ## 1. Thông tin học viên
 
 - Họ tên: Đào Duy Hiếu
 - MSSV:2A202603235
 - Email: 26ai.hieudd2@vinuni.edu.vn
-- Lớp: E403
+- Lớp: L2
 - Link repo bài làm: https://github.com/HIEU2460/K5-L2-DAY02-DaoDuyHieu-2A202603235-ObjectDetection
 - Link Colab đã chạy: https://colab.research.google.com/github/HIEU2460/K5-L2-DAY02-DaoDuyHieu-2A202603235-ObjectDetection/blob/main/notebooks/day2_annotation_to_yolo.ipynb#scrollTo=8teZRm2y00hQ
 
